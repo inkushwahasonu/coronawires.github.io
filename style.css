@@ -1,3 +1,31 @@
-h1{
-  color: red;
+
+@media screen and (max-width: 1580px) {
+  body {
+    background-color: rgb(243, 8, 106);
+  }
+}
+@media screen and (max-width: 1170px) {
+  body {
+    background-color: yellow;
+  }
+}
+@media screen and (max-width: 872px) {
+  body {
+    background-color: blue;
+  }
+}
+@media screen and (max-width: 640px) {
+  body {
+    background-color: rgb(255, 136, 0);
+  }
+}
+@media screen and (max-width: 350px) {
+  body {
+    background-color: #66ff00;
+  }
+}
+@media screen and (max-width: 100px) {
+  body {
+    background-color: rgb(36, 36, 146);
+  }
 }
