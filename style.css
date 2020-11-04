@@ -2,6 +2,11 @@
 @media screen and (max-width: 1580px) {
   body {
     background-color: rgb(243, 8, 106);
+    color: honeydew;
+     
+  }
+  li a{
+    color: honeydew;
   }
 }
 @media screen and (max-width: 1170px) {
