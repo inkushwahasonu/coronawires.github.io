@@ -40,19 +40,26 @@ let second = today.getSeconds();
 let milliSecond = today.getMilliseconds();
 
 function incremetTime() {
-  second++;
+
+if(milliSecond >= 1000){
+  second++
+  milliSecond = milliSecond - 1000;
+}else{
+  milliSecond++;
+}
+  
   if (second >= 60) {
     minute++;
     second = second - 60;
   } else {
-    second;
+    second++;
   }
 
   if (minute >= 60) {
     hour++;
     minute = minute - 60;
   } else {
-    minute;
+    minute++;
   }
 
   let prepand = hour >= 12 ? "PM" : "AM";
@@ -77,7 +84,7 @@ function incremetTime() {
     }
   }
 
-  time.innerHTML = hour + " " +prepand + " : " +minute + " : " +second + " : " +milliSecond;
+  time.innerHTML = hour + " " +prepand + " : " +minute + " : " +second + " : " + milliSecond;
 }
 
-window.setInterval(incremetTime, 1000);
+window.setInterval(incremetTime, 1000 );
