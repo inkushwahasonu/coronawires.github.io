@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../../css/bootstrap.min.css" />
+    <title>Area of triangle</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>
+        Area of triangle where, you can enter lengths of its three sides...
+      </h2>
+      <div class="form">
+        <form action="#">
+          <div class="mb-4">
+            <label class="form-label">Length of first side in cm. : </label>
+            <input
+              type="number"
+              class="form-control"
+              id="firstLength"
+              placeholder="first-length"
+            />
+            <span id="firstLengthError"></span>
+          </div>
+          <div class="mb-4">
+            <label class="form-label">Length of second side in cm. :</label>
+            <input
+              type="number"
+              class="form-control"
+              id="secondLength"
+              placeholder="second-length"
+            />
+            <span id="secondLengthError"></span>
+          </div>
+          <div class="mb-4">
+            <label class="form-label">Length of third side in cm. :</label>
+            <input
+              type="number"
+              class="form-control"
+              id="thirdLength"
+              placeholder="third-length"
+            />
+          </div>
+          <div class="mb-5">
+            <h3 id="resultText"></h3>
+            <!-- create class="resultText"-->
+            <p id="resultValue"></p>
+            <!-- create class="resultValue"-->
+          </div>
+          <button class="btn btn-primary" onclick="triangleArea()">
+            Area of triangle
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <hr />
+    <hr />
+    <!-- go to home page -->
+    <p><a href="../../../index.html"> home page</a></p>
+    <script src="script.js"></script>
+  </body>
+</html>

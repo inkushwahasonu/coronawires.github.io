@@ -1,0 +1,23 @@
+* {
+  font-family: sans-serif;
+  color: rgb(68, 48, 45);
+}
+
+h1 {
+  text-align: center;
+}
+.form {
+  width: 300px;
+  margin-left: 300px;
+}
+.resultText {
+  color: red;
+}
+.resultValue {
+  color: green;
+}
+
+h3,
+p {
+  text-align: center;
+}
