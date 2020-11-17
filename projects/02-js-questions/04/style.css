@@ -3,13 +3,10 @@
   color: rgb(68, 48, 45);
 }
 
-h1 {
+h2 {
   text-align: center;
 }
-.form {
-  width: 300px;
-  margin-left: 300px;
-}
+
 .resultText {
   color: red;
 }
