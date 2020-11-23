@@ -1,0 +1,17 @@
+* {
+  text-align: center;
+  margin-top: 10px;
+  color: dimgrey;
+}
+
+form {
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.true {
+  color: green;
+}
+.false {
+  color: red;
+}
