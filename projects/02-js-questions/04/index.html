@@ -21,6 +21,7 @@
             class="form-control"
             id="firstLength"
             placeholder="first-length"
+            required
           />
           <span id="firstLengthError"></span>
         </div>
@@ -31,6 +32,7 @@
             class="form-control"
             id="secondLength"
             placeholder="second-length"
+            required
           />
           <span id="secondLengthError"></span>
         </div>
@@ -41,17 +43,20 @@
             class="form-control"
             id="thirdLength"
             placeholder="third-length"
+            required
           />
         </div>
         <div class="mb-5">
-          <h3 id="resultText"></h3>
+          <h3 id="resultText">Area of triangle is : </h3>
           <!-- create class="resultText"-->
-          <p id="resultValue"></p>
+          <p id="resultValue">00.00000</p>
           <!-- create class="resultValue"-->
         </div>
-        <button class="btn btn-primary" onclick="triangleArea()">
+        <div class="text-center">
+        <button class="btn btn-primary " onclick="triangleArea(event)">
           Area of triangle
         </button>
+        </div>
       </form>
     </div>
 
