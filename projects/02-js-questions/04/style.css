@@ -2,24 +2,24 @@
   font-family: sans-serif;
   color: rgb(68, 48, 45);
 }
+@media only screen and (min-width: 760px) {
+  h2 {
+    text-align: center;
+  }
+  form {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
 
-h2 {
-  text-align: center;
-}
-form{
-  margin-left: 300px;
-  margin-right: 300px;
-}
+  .resultText {
+    color: red;
+  }
+  .resultValue {
+    color: green;
+  }
 
-
-.resultText {
-  color: red;
-}
-.resultValue {
-  color: green;
-}
-
-h3,
-p {
-  text-align: center;
+  h3,
+  p {
+    text-align: center;
+  }
 }
