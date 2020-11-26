@@ -3,19 +3,16 @@
   margin-top: 10px;
   color: dimgrey;
 }
-@media only screen and (min-width: 760px){
- 
-  
+
+.true {
+  color: green;
+}
+.false {
+  color: red;
+}
+@media only screen and (min-width: 760px) {
   form {
     margin-left: 500px;
     margin-right: 500px;
   }
-  
-  .true {
-    color: green;
-  }
-  .false {
-    color: red;
-  }
-  
 }

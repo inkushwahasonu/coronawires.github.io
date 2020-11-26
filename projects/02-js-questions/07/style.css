@@ -1,0 +1,12 @@
+* {
+  color: darkgrey;
+  font-family: Tahoma;
+  text-align: center;
+}
+h2,
+h4 {
+  padding-bottom: 10vh;
+}
+h4 {
+  color: green;
+}
