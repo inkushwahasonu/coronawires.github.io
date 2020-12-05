@@ -1,22 +1,17 @@
-*{
+* {
   text-align: center;
   color: gray;
   font-family: tahoma;
 }
-#message{
+#message {
   color: green;
   font-size: 30px;
 }
 
-
-
-
-
-
-hr{
+hr {
   padding-top: 20px;
 }
-p a{
+p a {
   text-decoration: none;
   font-size: 20px;
 }
