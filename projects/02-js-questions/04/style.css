@@ -1,0 +1,26 @@
+* {
+  font-family: sans-serif;
+  color: rgb(68, 48, 45);
+  text-align: center;
+}
+
+.resultText {
+  color: red;
+}
+.resultValue {
+  color: green;
+}
+@media only screen and (min-width: 760px) {
+  h2 {
+    text-align: center;
+  }
+  form {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  h3,
+  p {
+    text-align: center;
+  }
+}

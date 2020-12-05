@@ -1,0 +1,30 @@
+* {
+  text-align: center;
+  color: darkgray;
+  font-family: tahoma;
+}
+form {
+  margin-top: 100px;
+}
+form label {
+  color: black;
+}
+
+@media only screen and (min-width: 760px) {
+  form div {
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+}
+
+.true {
+  color: green;
+  font-size: 30px;
+}
+.false {
+  color: red;
+}
+
+hr {
+  padding: 10px;
+}

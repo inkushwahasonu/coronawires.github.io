@@ -1,0 +1,17 @@
+* {
+  text-align: center;
+  color: gray;
+  font-family: tahoma;
+}
+#message {
+  color: green;
+  font-size: 30px;
+}
+
+hr {
+  padding-top: 20px;
+}
+p a {
+  text-decoration: none;
+  font-size: 20px;
+}
