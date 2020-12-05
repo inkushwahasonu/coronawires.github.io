@@ -3,7 +3,10 @@
   color: gray;
   font-family: tahoma;
 }
-
+#message{
+  color: green;
+  font-size: 30px;
+}
 
 
 
