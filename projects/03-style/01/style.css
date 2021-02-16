@@ -1,0 +1,33 @@
+*{
+margin : 0;
+padding: 0;
+text-align: center;
+font-family:sans-serif;
+}
+.header{
+height:100vh;
+width :100vw;
+background-image:url("https://picsum.photos/seed/picsum/ / ");
+background-repeat:no-repeat;
+}
+.navbar nav{
+display: flex;
+flex-wrap:nowrap;
+flex-direction: row;
+justify-content:space-between;
+margin: 10px 20px;
+}
+.navbar nav .logo{
+font-size:25px;
+}
+
+.navbar ul {
+display : flex;
+flex-wrap:nowrap;
+list-style: none;
+}
+.navbar ul li{
+margin : 10px 25px;
+font-size: 20px;
+}
+

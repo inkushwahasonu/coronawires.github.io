@@ -1,0 +1,545 @@
+*{
+ margin: 0px;
+  padding:0px;
+  list-style: none;
+  text-decoration:none;
+  font-family:Arial;
+}
+nav{ 
+  height:80px;
+  width: 100%;
+  padding-top: 30px;
+}
+nav .logo{
+  position: absolute;
+  float:left;
+  left:30px;
+}
+nav .company{
+  position: absolute;
+  left:60px;
+  font-size: 25px;
+  color: rgb(77, 80, 83);
+}
+nav ul{
+  margin-left:43%;
+}
+nav ul li{
+  display:inline-block;
+  text-align: center;
+}
+nav ul li a{
+  position: relative;
+  padding:20px;
+  font-size: 20px;
+  color:rgb(109, 111, 134);
+}
+nav .nav-btn{
+  position: relative;
+  float: right;
+  right:25px;
+  background-color:rgb(84, 111, 199);
+  color: rgb(248, 248, 244);
+  padding:8px;
+  border-radius:20px;
+  cursor: pointer;
+  text-align: center;
+}
+nav #check{
+  display: none; 
+}
+nav .menu, nav .cancel{
+  float:right;
+  margin-right:25px;
+  display: none;
+}
+/* ------body------------------------------- */
+.head{
+  margin-top:0px;
+  padding: 0;
+  background-image:url("images/bg-head.png");
+  background-size: cover;
+}
+.content1 {
+  margin:30px 25px 0px 100px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.content1 h2{
+  margin-left:50px;
+  color:rgb(105, 111, 117);
+}
+.content1 h2 span{
+  color: rgb(62, 95, 167);
+}
+.content1 .mess{
+  margin:10px 200px 0px 50px;
+  font-size: 20px;
+  color: rgb(138, 148, 156);
+}
+.content1 .btn-primary{
+  margin-top:20px;
+  margin-right: 430px;
+  margin-left:100px;
+  padding:5px 25px;
+  border-radius:20px;
+  text-align: center;
+  background-color: rgb(99, 151, 197);
+}
+.content1 img{
+  width:500px;
+  height:300px;
+}
+.content2 {
+  margin:20px 30px 0px 30px;
+  display:flex;
+}
+.content2 div{
+  width:50%;
+  text-align: center;
+}
+.content2 div img{
+  width:300px;
+  height:300px;
+}
+.content2 h3{
+margin-top: 100px;
+margin-right: 50px;
+font-size:30px;
+color:rgb(81, 85, 88);
+text-align: right;
+}
+.content2 p{
+margin:10px 40px 0px 40px;
+color: rgb(128, 145, 184);
+}
+.spaciality{
+  margin-left: 50px;
+  font-size: 30px;
+  color: rgb(86, 93, 100);
+}
+.content3{
+  display: flex;
+  margin:10px 30px 30px 30px;
+}
+.content3 .a div  img{
+  background-color: rgb(102, 95, 202);
+  padding:8px;
+  border-radius: 50px;
+}
+.content3 .b div  img{
+  background-color: rgb(95, 202, 179);
+  padding:8px;
+  border-radius: 50px;
+}
+.content3 .c div  img{
+  background-color: rgb(71, 72, 80);
+  padding:8px;
+  border-radius: 50px;
+}
+.content3 h5{
+  font-size: 15px;
+  color: rgb(70, 76, 82);
+}
+.content3 p{
+  font-size: 13px;
+  margin-right:150px;
+  color:rgb(128, 135, 141);
+}
+
+
+@media only screen and (max-width:1120px){
+  
+  nav ul{
+    margin-left:380px;
+  }
+  nav ul li{
+   text-align: center;
+  }
+  nav ul li a{
+    padding:10px;
+    font-size: 22px;
+    color:rgb(109, 111, 134);
+  }
+  nav .nav-btn{
+    position: absolute;
+    right:25px;
+    background-color:rgb(0, 60, 255);
+    color: rgb(248, 248, 244);
+    padding:8px;
+    border-radius:20px;
+  }
+  
+  /* --body part--------------------------- */
+  .head{
+    margin-top:0px;
+    padding: 0;
+    background-image:url("images/bg-head.png");
+    background-size: cover;
+  }
+  .content1 {
+    margin:15px 15px 0px 15px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  .content1 div{
+    width:50%;
+  }
+  .content1 .c1d1{
+    margin-left:100px;
+  }
+  .content1 .mess{
+    font-size: 15px;
+    margin-right: 0px;
+  }
+  .content1 .btn-primary{
+    margin-top:20px;
+    margin-right: 240px;
+    margin-left:100px;
+    padding:5px 25px;
+    border-radius:20px;
+  }
+  .content1 img{
+    width:200px;
+    height:200px;
+    margin-left: 200px;
+  }
+  .content2 {
+    margin:20px 30px 0px 30px;
+    display:flex;
+  }
+  .content2 div{
+    width:50%;
+  }
+  .content2 div img{
+    width:300px;
+    height:300px;
+  }
+  .content2 h3{
+    margin-top: 100px;
+    margin-right: 50px;
+    font-size:30px;
+  }
+  .content2 p{
+    margin:10px 40px 0px 40px;
+  }
+  .spaciality{
+    margin-left: 70px;
+    font-size: 30px;
+  }
+  .content3{
+    display: flex;
+    margin:10px 45px 20px 65px;
+  }
+  .content3 .a div  img, .content3 .b div  img, .content3 .c div  img{
+    padding:8px;
+    border-radius: 50px;
+  }
+  .content3 h5{
+    font-size: 15px;
+  }
+  .content3 p{
+    font-size: 13px;
+    margin-right:150px;
+  }
+  
+}
+@media only screen and (max-width:1024px){
+  nav img{
+    width:25px;
+    height:25px;
+  }
+  nav .company{
+    position: absolute;
+    left:60px;
+    font-size:25px;
+    color: rgb(77, 80, 83);
+  }
+  nav ul{
+    margin-left: 320px;
+  }
+  nav ul li{
+   text-align: center;
+  }
+  nav ul li a{
+    padding:10px;
+    font-size: 22px;
+    color:rgb(109, 111, 134);
+  }
+  nav .nav-btn{
+    position: absolute;
+    right:25px;
+    background-color:rgb(0, 60, 255);
+    color: rgb(248, 248, 244);
+    padding:8px;
+    border-radius:20px;
+   
+  }  
+  /* --body part--------------------------- */
+  .head{
+    margin-top:0px;
+    padding: 0;
+    background-image:url("images/bg-head.png");
+    background-size: cover;
+  }
+  .content1 {
+    margin:15px 10px 0px 10px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  .content1 div{
+    width:50%;
+  }
+  .content1 .c1d1{
+    margin-left:50px;
+  }
+  .content1 .mess{
+    font-size: 15px;
+    margin-right: 0px;
+  }
+  .content1 .btn-primary{
+    margin-top:20px;
+    margin-right: 240px;
+    margin-left:100px;
+    padding:5px 25px;
+    border-radius:20px;
+  }
+  .content1 img{
+    width:200px;
+    height:200px;
+    margin-left: 150px;
+  }
+  .content2 {
+    margin:20px 40px 0px 0px;
+    display:flex;
+  }
+  .content2 div{
+    width:50%;
+  }
+  .content2 div img{
+    width:250px;
+    height:250px;
+  }
+  .content2 h3{
+    margin-top: 70px;
+    margin-right: 50px;
+    font-size:30px;
+  }
+  .content2 p{
+    margin:10px 30px 0px 40px;
+  }
+  .spaciality{
+    margin-left: 70px;
+    font-size: 30px;
+  }
+  .content3{
+    display: flex;
+    margin:10px 45px 20px 65px;
+  }
+  .content3 .a div  img, .content3 .b div  img, .content3 .c div  img{
+    padding:8px;
+    border-radius: 50px;
+  }
+  .content3 h5{
+    font-size: 15px;
+  }
+  .content3 p{
+    font-size: 13px;
+    margin-right:150px;
+  }         
+}
+@media only screen and (max-width:880px){
+  nav ul {
+    margin-left:270px;
+  }
+
+  /* --body part----------------- */
+  .head{
+    margin-top:0px;
+    padding: 0;
+    background-image:url("images/bg-head.png");
+    background-size: cover;
+  }
+  .content1 {
+    margin:15px 5px 0px 5px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  .content1 div{
+    width:50%;
+  }
+  .content1 .c1d1{
+    margin-left:10px;
+  }
+  .content1 .mess{
+    font-size: 15px;
+    margin-right: 0px;  
+  }
+  .content1 .btn-primary{
+    margin-top:20px;
+    margin-right: 240px;
+    margin-left:50px;
+    padding:5px 25px;
+    border-radius:20px;
+  }
+  .content1 img{
+    width:200px;
+    height:200px;
+    margin-left: 100px;
+  }
+  .content2 {
+    margin:10px 10px 0px 10px;
+    display:flex;
+  }
+  .content2 div{
+    width:50%;
+  }
+  .content2 div img{
+    width:200px;
+    height:200px;
+  }
+  .content2 h3{
+    margin-top: 20px;
+    margin-right: 40px;
+    font-size:23px;
+  }
+  .content2 p{
+    margin:10px 30px 0px 0px;
+  }
+  .spaciality{
+    margin-left: 60px;
+    font-size: 30px;
+  }
+  .content3{
+    display: flex;
+    margin:10px 45px 20px 60px;
+  }
+  .content3 .a div  img, .content3 .b div  img, .content3 .c div  img{
+    padding:8px;
+    border-radius: 50px;
+  }
+  .content3 h5{
+    font-size: 15px;
+  }
+  .content3 p{
+    font-size: 13px;
+    margin-right:150px;
+  }         
+}
+
+@media only screen and (max-width:768px) {
+  nav .nav-btn{
+    padding: 3px;
+    margin-right:60px ;
+  }
+ nav .menu{
+   display: block;
+ }
+  nav ul{
+    background-color:rgb(127, 184, 73);
+    position:absolute;
+    top: 8vh;
+    margin-left:0;
+    margin-right: 0px;
+    display:none;
+    width:94%;
+    height:auto;
+    border-radius: 40px;
+  }
+  nav ul li{
+    padding: 50px 0px;
+    line-height:30px;
+  }
+  nav ul li a {
+    color: rgb(249, 251, 253);
+    font-size: 40px;
+  }
+  #check:checked ~ ul{
+    display:block;
+  }
+  #check:checked ~ label .menu{
+    display:none;
+  }
+  #check:checked ~ label .cancel{
+    display:block;
+  }
+
+  /* --body part----------------- */
+  .head{
+    margin-top:0px;
+    padding: 0;
+    background-image:url("images/bg-head.png");
+    background-size: cover;
+  }
+  .content1 {
+    margin:15px 5px 0px 5px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  .content1 div{
+    width:50%;
+  }
+  .content1 .c1d1{
+    margin-left:10px;
+  }
+  .content1 .mess{
+    font-size: 15px;
+    margin-right: 0px;
+  }
+  .content1 .btn-primary{
+    margin-top:20px;
+    margin-right: 10px;
+    margin-left:50px;
+    padding:5px 25px;
+    border-radius:20px;
+  }
+  .content1 img{
+    width:200px;
+    height:200px;
+    margin-left: 100px;
+  }
+  .content2 {
+    margin:10px 10px 0px 10px;
+    display:flex;
+  }
+  .content2 div{
+    width:50%;
+  }
+  .content2 div img{
+    width:200px;
+    height:200px;
+  }
+  .content2 h3{
+    margin-top: 20px;
+    margin-right: 40px;
+    font-size:23px;
+  }
+  .content2 p{
+    margin:10px 30px 0px 0px;
+  }
+  .spaciality{
+    text-align: center;
+    font-size: 30px;
+  }
+  .content3{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .content3 .a div  img, .content3 .b div  img, .content3 .c div  img{
+    padding:8px;
+    border-radius: 50px;
+  }
+  .content3 h5{
+    font-size: 15px;
+  }
+  .content3 p{
+    margin:20px 25% 50px 25%;
+    font-size: 13px;
+  }         
+}
