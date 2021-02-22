@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+.container{
+  padding:40px 40px 40px 40px;
+  background-color:rgb(252, 253, 253);
+  height:100vh;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:space-between;
+}
+.left{
+  
+  width: 65%;
+  height: 100%;
+  background: url('https://source.unsplash.com/user/erondu/500x500') no-repeat top center/cover;
+  border-radius: 40px;
+}
+.left p{
+  position: absolute;
+  bottom: 4rem;
+  left: 6rem;
+  font-size: 2rem;
+  font-family: arial;
+  font-weight: 9rem;
+  color:#fff;
+  text-transform: capitalize;
+}
+.right{
+  width: 65px;
+  height:100%;
+  border-radius: 40px;
+}
+.r1{
+  background:url('https://source.unsplash.com/500x500/?nature') no-repeat top center/cover;
+}
+.r2{
+  background:url('https://source.unsplash.com/collection/190727/65x900') no-repeat top center/cover;
+}
+.r3{
+  background:url('https://source.unsplash.com/65x900/?nature') no-repeat top center/cover;
+}
+.r4{
+  background:url('https://source.unsplash.com/65x900/?water') no-repeat top center/cover;
+}
