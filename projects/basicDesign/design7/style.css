@@ -152,9 +152,6 @@ line-height: 2rem;
   transform: rotate(-30deg);
 }
 
-#check:checked ~ *{
-  position: fixed;
-}
 
 
 /*------------ media--------------- */
