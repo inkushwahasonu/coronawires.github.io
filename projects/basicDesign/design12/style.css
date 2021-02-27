@@ -43,8 +43,11 @@ img{
 
 @media screen and (max-width:768px){
   .design{
-    position: relative;
-    width: 250px;
+    width: 180px;
     height: 250px;
+  }
+  .design > *, .blend > *{
+    width: 180px;
+    height: 180px;
   }
 }
