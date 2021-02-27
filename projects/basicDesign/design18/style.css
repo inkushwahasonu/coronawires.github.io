@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 .main_div{
   min-height: 100vh;
@@ -19,4 +20,12 @@ p.first_child::first-letter{
 p.first_child::first-line{
   color: rgb(0, 38, 255);
   font-weight: bold;
+}
+@media screen and (max-width:768px){
+  .main_div{
+    min-height: 100vh;
+    width: 100vw;
+    padding: 1rem 1rem;
+    background-color: rgb(176, 126, 223);
+  }
 }
