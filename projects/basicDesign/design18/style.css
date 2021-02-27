@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_div{
+  min-height: 100vh;
+  width: 100vw;
+  padding: 5rem 20rem;
+  background-color: rgb(176, 126, 223);
+}
+p.first_child::first-letter{
+  font-size: 10rem;
+  color: rgb(0, 38, 255);
+  float:left ;
+  margin: 0 1rem 0 0;
+  line-height: 1rem;
+}
+p.first_child::first-line{
+  color: rgb(0, 38, 255);
+  font-weight: bold;
+}

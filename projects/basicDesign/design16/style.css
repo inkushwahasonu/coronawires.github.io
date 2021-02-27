@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent_div{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(77, 73, 78);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child_div{
+  height: 60vh;
+  width: 60vw;
+background-image: linear-gradient(154deg, rgba(255,255,255,0.6)50%, rgba(0,0,0,0.5)50%),
+  url('images/img.jpeg');
+background-size: 100% 100%;
+box-shadow: 0 10px 20px -9px #000;
+
+}
