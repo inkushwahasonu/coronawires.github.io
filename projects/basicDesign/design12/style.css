@@ -16,8 +16,8 @@
 }
 .design > *, .blend > *{
   position: absolute;
-  width: 400px;
-  height: 400px;
+  width: 280px;
+  height: 280px;
 }
 #rotateBorder{
   border:15px #eb311f solid;
