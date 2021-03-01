@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+header img {
+  width: 50rem;
+  height: 50rem;
+  -webkit-filter: drop-shadow(1rem 1rem 1rem grey);
+          filter: drop-shadow(1rem 1rem 1rem grey);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+header img:hover {
+  -webkit-filter: drop-shadow(1rem 1rem 1rem yellow);
+          filter: drop-shadow(1rem 1rem 1rem yellow);
+}
+/*# sourceMappingURL=style.css.map */

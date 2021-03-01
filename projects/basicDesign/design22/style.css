@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_header{
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  display: grid;
+  place-items: center;
+}
+h1{
+  color:transparent;
+  font-size: 3rem;
+  background-image:url('images/img.jpg');
+  background-size:100% 100%;
+  background-clip: text;
+  /* -webkit-background-clip: text;
+  -moz-background-clip:text; */
+}

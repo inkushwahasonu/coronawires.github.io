@@ -1,0 +1,140 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main_div {
+  font-size: 1.6rem;
+  width: 100vw;
+  height: 100vh;
+  background: cadetblue;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.main_div .center_div {
+  width: 50%;
+  height: auto;
+  background-color: #c9d1c1;
+}
+
+.main_div .center_div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_div .center_div ul li {
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 7rem;
+  padding-left: 2rem;
+  color: #576674;
+  -webkit-animation: light 1.3s linear infinite;
+          animation: light 1.3s linear infinite;
+}
+
+.main_div .center_div ul li:first-child {
+  padding-left: 0;
+}
+
+@-webkit-keyframes light {
+  0% {
+    color: #576574;
+    text-shadow: none;
+  }
+  90% {
+    color: #576574;
+  }
+  100% {
+    color: #f1c40f;
+    text-shadow: 0 0 1rem #d35400, 0 0 7rem #d35400;
+  }
+}
+
+@keyframes light {
+  0% {
+    color: #576574;
+    text-shadow: none;
+  }
+  90% {
+    color: #576574;
+  }
+  100% {
+    color: #f1c40f;
+    text-shadow: 0 0 1rem #d35400, 0 0 7rem #d35400;
+  }
+}
+
+.center_div ul li:nth-child(1) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.center_div ul li:nth-child(2) {
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s;
+}
+
+.center_div ul li:nth-child(3) {
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
+}
+
+.center_div ul li:nth-child(4) {
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
+}
+
+.center_div ul li:nth-child(5) {
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+.center_div ul li:nth-child(6) {
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+.center_div ul li:nth-child(7) {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 25%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 25%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  html {
+    font-size: 20%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

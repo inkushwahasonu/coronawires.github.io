@@ -1,0 +1,94 @@
+html{
+  font-size: 62.5%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_div{
+  font-size: 1.6rem;
+  width: 100vw;
+  height: 100vh;
+  background: cadetblue;
+  display: grid;
+  place-items: center;
+
+
+  .center_div{
+    width: 50%;
+    height: auto;
+    background-color: rgb(201, 209, 193);
+    & ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      & li{
+        list-style: none;
+        text-transform: uppercase;
+        font-size: 7rem;
+        padding-left:2rem;
+        color: #576674;
+        animation: light 1.3s linear infinite;
+        &:first-child{
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@keyframes light{
+  0%{
+    color: #576574;
+    text-shadow: none;
+  }
+  90%{
+    color: #576574;
+  }
+  100%{
+    color: #f1c40f;
+    text-shadow: 0 0 1rem #d35400, 0 0 7rem #d35400;
+  }
+}
+.center_div ul li:nth-child(1){
+  animation-delay: 0s;
+}
+.center_div ul li:nth-child(2){
+  animation-delay: .1s;
+}
+.center_div ul li:nth-child(3){
+  animation-delay: .2s;
+}
+.center_div ul li:nth-child(4){
+  animation-delay: .3s;
+}.center_div ul li:nth-child(5){
+  animation-delay: .4s;
+}.center_div ul li:nth-child(6){
+  animation-delay: .5s;
+}.center_div ul li:nth-child(7){
+  animation-delay: .6s;
+}
+@media screen and(max-width:768px){
+  html{
+    font-size: 40%;
+  }
+}
+@media screen and(max-width:425px){
+  html{
+    font-size: 25%;
+  }
+}
+@media screen and(max-width:425px){
+  html{
+    font-size: 25%;
+  }
+}
+@media screen and(max-width:370px){
+  html{
+    font-size: 20%;
+  }
+}

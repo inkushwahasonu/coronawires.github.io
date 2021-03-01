@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 .main_div{
   background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
@@ -21,21 +20,12 @@ h1{
   /* mix-blend-mode:saturation; */
 }
 @media screen and (max-width:768px){
-
-.main_div{
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
-  url('images/img.jpeg');
-  background-size: 100% 100%;
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  place-items: center;
+  h1{
+    font-size: 3rem;
+  }
 }
-h1{
-  font-size: 5rem;
-  background-color: rgb(161, 115, 175);
-  padding: 0 10px;
-  mix-blend-mode:screen;
-  /* mix-blend-mode:saturation; */
-}
+@media screen and (max-width:320px){
+  h1{
+    font-size: 2rem;
+  }
 }
