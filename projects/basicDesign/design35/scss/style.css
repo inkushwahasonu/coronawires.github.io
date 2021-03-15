@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f2efed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content {
+  width: 30rem;
+  height: auto;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 3rem;
+  padding: 3rem;
+}
+
+.title {
+  font-weight: 900;
+  color: red;
+  line-height: 0.8;
+  text-align: center;
+  margin: 4rem;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: inherit;
+  background: none;
+  border: 0;
+  color: inherit;
+  padding: .5em 1.5em;
+}
+
+.btn-1 {
+  color: #386397;
+  outline: 2px solid #386397;
+  border: 2px solid #386397;
+  outline-offset: -2px;
+  -webkit-transition: outline-offset 250ms ease;
+  transition: outline-offset 250ms ease;
+}
+
+.btn-1:hover,
+.btn-1:focus {
+  outline-offset: 2px;
+}
+
+.btn-2 {
+  color: #ad325e;
+  outline: 2px solid #ad325e;
+  border: 2px solid #ad325e;
+  outline-offset: -2px;
+  -webkit-transition: outline-offset 250ms ease;
+  transition: outline-offset 250ms ease;
+}
+
+.btn-2:hover,
+.bt-2:focus {
+  outline-offset: -6px;
+}
+
+.btn-3 {
+  background-color: #5559AB;
+  border: 2px solid #5559ab;
+  color: #fff;
+  outline: 2px solid #fff;
+  -webkit-transition: outline-offset 250ms ease, outline-width 250ms ease;
+  transition: outline-offset 250ms ease, outline-width 250ms ease;
+}
+
+.btn-3:hover,
+.btn-3:focus {
+  outline-offset: -6px;
+}
+
+.btn-4 {
+  color: #9c11ff;
+  outline: 2px solid #9c11ff;
+  border: 2px solid #9c11ff;
+  outline-offset: -2px;
+  -webkit-transition: outline-offset 250ms ease;
+  transition: outline-offset 250ms ease;
+}
+
+.btn-4:hover,
+.btn-4:focus {
+  outline-offset: -4px;
+  outline-width: 4px;
+}
+/*# sourceMappingURL=style.css.map */
