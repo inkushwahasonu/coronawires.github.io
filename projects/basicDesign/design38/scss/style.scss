@@ -1,0 +1,30 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+  height: 100%;
+}
+body{
+  display: flex;                    
+  flex-direction: column;
+  height: 100%;
+}
+.footer{
+  width: 100vw;
+  height: 5rem;
+  background-color: #0a183d;
+  margin-top: auto;                 
+  
+  & > p{
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+
+    line-height:5rem;
+  }
+}
