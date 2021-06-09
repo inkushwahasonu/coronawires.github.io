@@ -1,0 +1,53 @@
+[{
+ 
+  "country": [
+    {"name" : "India"},
+    {"capital" : "Delhi"},
+    {"prime minister" : "Narendra Damoder Das Modi"},
+    {"president" : "Ram Nath Kovind"},
+    {"states" : [
+        {"01":[{"name" : "Andhra Pradesh"},{"capital": "Hyderabad (Proposed Capital Amaravati)"},{"cm":"YS Jagan Mohan Reddy"}, {"governor": "Biswa Bhusan Harichandan"}, {"stablished": "1 Nov. 1956"}]},
+        {"02": [{"name": "Arunachal Pradesh"},{"capital":"Itanagar"}, {"cm" : "Pema Khandu"}, {"governor": "B. D. Mishra"},{"stablished": "20 Feb. 1987"}]},
+        {"03": [{"name":  "Assam"},{"capital":"Dispur"}, {"cm" : "Sarbananda Sonowal"}, {"governor": "Jagdish Mukhi"},{"stablished": "26 Jan. 1950"}]},
+        {"04": [{"name": "Bihar"},{"capital":"Patna"}, {"cm" : "Nitish Kumar"}, {"governor": "Phagu Chauhan"},{"stablished": "26 Jan. 1950"}]},
+        {"05": [{"name": "Chhattisgarh"},{"capital":"Raipur"}, {"cm" : "Bhupesh Baghel"}, {"governor": "Sushri Anusuiya Uikey"},{"stablished": "1 Nov. 2000"}]},
+        {"06": [{"name":  "Goa"},{"capital":"Panaji"}, {"cm" : "Pramod Sawant"}, {"governor": "Satya Pal Malik"},{"stablished": "30 May. 1987"}]},
+        {"07": [{"name": "Gujarat"},{"capital":"Gandhinagar"}, {"cm" : "Vijaybhai R. Rupani"}, {"governor": "Acharya Dev Vrat"},{"stablished": "1 May. 1960"}]},
+        {"08": [{"name": "Haryana"},{"capital":"Chandigarh"}, {"cm" : "Manohar Lal"}, {"governor": "Satyadev Narayan Arya"},{"stablished": "1 Nov. 1966"}]},
+        {"09": [{"name": "Himachal Pradesh"},{"capital":"Shimla"}, {"cm" : "Jairam Thakur"}, {"governor": "Bandaru Dattatraya"},{"stablished": "25 Jan. 1971"}]},
+        {"10": [{"name": "Jharkhand"},{"capital":"Ranchi"}, {"cm" : "Raghubar Das"}, {"governor": "Droupadi Murmu"},{"stablished": "15 Nov. 2000"}]},
+        {"11": [{"name": "Karnataka"},{"capital":"Bengaluru"}, {"cm" : "B. S. Yediyurappa"}, {"governor": "Vajubhai Vala"},{"stablished": "1 Nov. 1956"}]},
+        {"12": [{"name": "Kerala"},{"capital":"Thiruvananthapuram"}, {"cm" : "Pinarayi Vijayan"}, {"governor": "Arif Mohammed Khan"},{"stablished": "1 Nov. 1956"}]},
+        {"13": [{"name": "Madhya Pradesh"},{"capital":"Bhopal"}, {"cm" : "Kamal Nath"}, {"governor": "Lal Ji Tandon"},{"stablished": "1 Nov. 1956"}]},
+        {"14": [{"name": "Maharashtra"},{"capital":"Mumbai"}, {"cm" : "Devendra Fadnavis"}, {"governor": "Bhagat Singh Koshyari"},{"stablished": "1 May. 1960"}]},
+        {"15": [{"name": "Manipur"},{"capital":"Imphal"}, {"cm" : "N. Biren Singh"}, {"governor": "Padmanabha Balkrishna Acharya"},{"stablished": "21 Jan. 1972"}]},
+        {"16": [{"name": "Meghalaya"},{"capital":"Shillong"}, {"cm" : "Conrad Kongkal Sangma"}, {"governor": "Tathagata Roy"},{"stablished": "21 Jan. 1972"}]},
+        {"17": [{"name": "Mizoram"},{"capital":"Aizawl"}, {"cm" : "Pu Zoramthanga"}, {"governor": "P.S. Sreedharan Pillai"},{"stablished": "20 Feb. 1987"}]},
+        {"18": [{"name": "Nagaland"},{"capital":"Kohima"}, {"cm" : "Neiphiu Rio"}, {"governor": "R. N. Ravi"},{"stablished": "1 Dec. 1963"}]},
+        {"19": [{"name":  "Odisha"},{"capital":"Bhubaneswar"}, {"cm" : "Naveen Patnaik"}, {"governor": "Ganeshi Lal"},{"stablished": "26 Jan. 1950"}]},
+        {"20": [{"name": "Punjab"},{"capital":"Chandigarh"}, {"cm" : "Capt. Amarinder Singh"}, {"governor": "V.P. Singh Badnore"},{"stablished": "1 Nov. 1956"}]},
+        {"21": [{"name": "Rajasthan"},{"capital":"Jaipur"}, {"cm" : "Ashok Gehlot"}, {"governor": "Kalraj Mishra"},{"stablished": "1 Nov. 1956"}]},
+        {"22": [{"name": "Sikkim"},{"capital":"Gangtok"}, {"cm" : "PS Golay"}, {"governor": "Ganga Prasad"},{"stablished": "16 May. 1975"}]},
+        {"23": [{"name": "Tamil Nadu"},{"capital":"Chennai"}, {"cm" : "Thiru Edappadi K. Palaniswami"}, {"governor": "Banwarilal Purohit"},{"stablished": "26 Jan. 1950"}]},
+        {"24": [{"name": "Telangana"},{"capital":"Hyderabad"}, {"cm" : "K Chandrasekhar Rao"}, {"governor": "Tamilisai Soundararajan"},{"stablished": "2 Jun. 2014"}]},
+        {"25": [{"name": "Tripura"},{"capital":"Agartala"}, {"cm" : "Biplab Kumar Deb"}, {"governor": "Ramesh Bais"},{"stablished": "21 Jan. 1972"}]},
+        {"26": [{"name": "Uttar Pradesh"},{"capital":"Lucknow"}, {"cm" : "Yogi Aditya Nath"}, {"governor": "Anandiben Patel"},{"stablished": "26 Jan. 1950"}]},
+        {"27": [{"name": "Uttarakhand"},{"capital":"Dehradun"}, {"cm" : "Trivendra Singh Rawat"}, {"governor": "Baby Rani Maurya"},{"stablished": "9 Nov. 2000"}]},
+        {"28": [{"name": "West Bengal"},{"capital":"Kolkata"}, {"cm" : "Mamata Banerjee"}, {"governor": "Jagdeep Dhankhar"},{"stablished": "1 Nov. 1956"}]}
+      ]
+    },
+    {
+      "UnionTerritorie": [
+        {"01": [{"name": "Andaman and Nicobar Island"},{"capital":"Port Blair"}, {"cm" : "NA"}, {"lt-governor": "D K Joshi"},{"stablished": "1 Nov. 1956"}]},
+        {"01": [{"name": "Chandigarh"},{"capital":"Chandigarh"}, {"cm" : "NA"}, {"lt-governor": "V.P. Singh Badnore"},{"stablished": "1 Nov. 1966"}]},
+        {"01": [{"name": "Dadra and Nagar Haveli and Daman and Diu"},{"capital":"Daman"}, {"cm" : "NA"}, {"lt-governor": "Praful Patel"},{"stablished": "26 Jan. 2020"}]},
+        {"01": [{"name": "Delhi"},{"capital":"Delhi"}, {"cm" : "Arvind Kejriwal"}, {"lt-governor": "Anil Baijal"},{"stablished": "9 May. 1905"}]},
+        {"01": [{"name": "Ladakh"},{"capital":"NA"}, {"cm" : "NA"}, {"lt-governor": "Radha Krishna Mathur"},{"stablished": "31 Oct 2019"}]},
+        {"01": [{"name": "Lakshadweep"},{"capital":"Kavaratti"}, {"cm" : "NA"}, {"lt-governor": "Farooq Khan"},{"stablished": "1 Nov. 1956"}]},
+        {"01": [{"name": "Jammu and Kashmir"},{"capital":"NA"}, {"cm" : "NA"}, {"lt-governor": "Girish Chandra Murmu"},{"stablished": "31 Oct 2019"}]},
+        {"01": [{"name": "Puducherry"},{"capital":"Pondicherry"}, {"cm" : "V. Narayanasamy"}, {"lt-governor": "Kiran Bedi"},{"stablished": "1 Nov. 1954"}]}
+      ]
+    }
+  ]
+}
+]
